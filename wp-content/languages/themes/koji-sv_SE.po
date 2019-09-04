@@ -1,0 +1,487 @@
+# Translation of Themes - Koji in Swedish
+# This file is distributed under the same license as the Themes - Koji package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-04-09 00:16:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Themes - Koji\n"
+
+#. Description of the theme
+msgid "Koji is a clean and lightweight theme for bloggers. It features a masonry grid on the archive pages, a beautiful and minimal design, Block Editor/Gutenberg support, widget areas in the sidebar and the footer, infinite scroll loading that can be set to load more posts on button click or when the visitor reaches the bottom of the page, settings for what post meta to display on archive pages and on single posts, icon links to social media pages, custom logo support, a search overlay that can be accessed from any page, and much more. Demo: https://www.andersnoren.se/themes/koji/"
+msgstr "Koji är ett rent och lättviktigt tema för bloggare. Den har ett murverks-rutnät på arkivsidorna, vacker och minimalistisk design, stöd för blockredigerare/Gutenberg, widgetområden i sidopanelen och sidfoten, ändlös rullning som kan ställas in för att ladda fler inlägg när man klickar på en knapp eller när besökaren når botten av sidan, inställningar för vilka metadata för inlägg som ska visas på arkivsidor och på enskilda inlägg, ikonlänkar till sociala mediasidor, stöd för anpassad logga, en sököverlappning som kan nås från vilken sida som helst och mycket mer. Demo: https://www.andersnoren.se/themes/koji/"
+
+#. Theme Name of the theme
+msgid "Koji"
+msgstr "Koji"
+
+#: header.php:226
+msgid "Hide the search overlay"
+msgstr "Dölj sököverlägget"
+
+#: header.php:118 header.php:197
+msgid "Toggle the search field"
+msgstr "Aktivera/inaktivera sökfältet"
+
+#: header.php:34
+msgid "Skip to the main menu"
+msgstr "Hoppa till huvudmenyn"
+
+#: header.php:33
+msgid "Skip to the content"
+msgstr "Hoppa till innehåll"
+
+#: functions.php:750
+msgid "Post author"
+msgstr "Inläggsförfattare"
+
+#: functions.php:450
+msgid "Fallback image"
+msgstr "Reservbild"
+
+#: content.php:70
+msgid "Next post:"
+msgstr "Nästa inlägg:"
+
+#: content.php:58
+msgid "Previous post:"
+msgstr "Föregående inlägg:"
+
+#: functions.php:273
+msgid "Widgets in this area will be shown below the main menu."
+msgstr "Widgetar i detta område kommer att visas under huvudmenyn."
+
+#: functions.php:271
+msgid "Sidebar"
+msgstr "Sidopanel"
+
+#: functions.php:303
+msgid "Widgets in this area will be shown in the third footer column."
+msgstr "Widgetar i detta område kommer att visas i den tredje sidfotskolumnen."
+
+#: functions.php:301
+msgid "Footer #3"
+msgstr "Sidfot #3"
+
+#: functions.php:293
+msgid "Widgets in this area will be shown in the second footer column."
+msgstr "Widgetar i detta område kommer att visas i den andra sidfotskolumnen."
+
+#: functions.php:291
+msgid "Footer #2"
+msgstr "Sidfot #2"
+
+#: functions.php:283
+msgid "Widgets in this area will be shown in the first footer column."
+msgstr "Widgetar i detta område kommer att visas i den första sidfotskolumnen."
+
+#: functions.php:281
+msgid "Footer #1"
+msgstr "Sidfot #1"
+
+#: functions.php:1026
+msgid "Check to hide the related posts section on single posts."
+msgstr "Bocka för om du vill dölja sektionen med relaterade inlägg på enskilda inlägg."
+
+#: functions.php:1025
+msgid "Disable Related Posts"
+msgstr "Avaktivera relaterade inlägg"
+
+#: functions.php:999
+msgid "Disable Search Toggle"
+msgstr "Inaktivera sökknappen"
+
+#: functions.php:893
+msgid "Disable Fallback Image"
+msgstr "Inaktivera reservbilden"
+
+#: functions.php:866
+msgid "Checking this will decrease load times, but also make images look less sharp on high-resolution screens."
+msgstr "Genom att bocka för den här kortar du ner laddningstiderna, men gör också bilderna mindre skarpa på högupplösta skärmar."
+
+#: functions.php:865
+msgid "Use Low-Resolution Images"
+msgstr "Använd lågupplösta bilder"
+
+#: functions.php:852
+msgid "Settings for images in Koji."
+msgstr "Inställningar för bilder i Koji."
+
+#: functions.php:849
+msgid "Images"
+msgstr "Bilder"
+
+#: searchform.php:9
+msgctxt "Submit button"
+msgid "Search"
+msgstr "Sök"
+
+#: searchform.php:8
+msgctxt "Placeholder"
+msgid "Enter your search query"
+msgstr "Fyll i din söktext"
+
+#: searchform.php:5
+msgctxt "Label"
+msgid "Search for:"
+msgstr "Sök efter:"
+
+#: functions.php:1008 related-posts.php:63
+msgid "Related Posts"
+msgstr "Relaterade inlägg"
+
+#: pagination.php:67
+msgid "Next Page &rarr;"
+msgstr "Nästa sida &rarr;"
+
+#: pagination.php:63
+msgid "&larr; Previous Page"
+msgstr "&larr; Föregående sida"
+
+#: pagination.php:39
+msgid "Nothing more to load."
+msgstr "Inget mer att ladda."
+
+#: pagination.php:37
+msgid "Load more"
+msgstr "Ladda mer"
+
+#. Translators: %s = the number of results
+#: index.php:30
+msgctxt "%s = number of results"
+msgid "Found %s result matching your search."
+msgid_plural "Found %s results matching your search."
+msgstr[0] "Hittade %s resultat som matchar din sökning."
+msgstr[1] "Hittade %s resultat som matchar din sökning."
+
+#: header.php:57
+msgid "Close"
+msgstr "Stäng"
+
+#: header.php:56
+msgid "Menu"
+msgstr "Meny"
+
+#: functions.php:1142
+msgctxt "Short name of the larger font size in the Gutenberg editor."
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:1141
+msgctxt "Name of the larger font size in Gutenberg"
+msgid "Larger"
+msgstr "Större"
+
+#: functions.php:1136
+msgctxt "Short name of the large font size in the Gutenberg editor."
+msgid "L"
+msgstr "L"
+
+#: functions.php:1135
+msgctxt "Name of the large font size in Gutenberg"
+msgid "Large"
+msgstr "Stor"
+
+#: functions.php:1130
+msgctxt "Short name of the regular font size in the Gutenberg editor."
+msgid "M"
+msgstr "M"
+
+#: functions.php:1129
+msgctxt "Name of the regular font size in Gutenberg"
+msgid "Regular"
+msgstr "Normal"
+
+#: functions.php:1124
+msgctxt "Short name of the small font size in the Gutenberg editor."
+msgid "S"
+msgstr "S"
+
+#: functions.php:1123
+msgctxt "Name of the small font size in Gutenberg"
+msgid "Small"
+msgstr "Liten"
+
+#: functions.php:1113
+msgctxt "Name of the white color in the Gutenberg palette"
+msgid "White"
+msgstr "Vit"
+
+#: functions.php:1108
+msgctxt "Name of the lightest gray color in the Gutenberg palette"
+msgid "Lightest gray"
+msgstr "Ljusaste grå"
+
+#: functions.php:1103
+msgctxt "Name of the light gray color in the Gutenberg palette"
+msgid "Light gray"
+msgstr "Ljusgrå"
+
+#: functions.php:1098
+msgctxt "Name of the gray color in the Gutenberg palette"
+msgid "Gray"
+msgstr "Grå"
+
+#: functions.php:1093
+msgctxt "Name of the darker gray color in the Gutenberg palette"
+msgid "Darker Gray"
+msgstr "Mörkare grå"
+
+#: functions.php:1088
+msgctxt "Name of the darkest gray color in the Gutenberg palette"
+msgid "Darkest gray"
+msgstr "Mörkaste grå"
+
+#: functions.php:1083
+msgctxt "Name of the black color in the Gutenberg palette"
+msgid "Black"
+msgstr "Svart"
+
+#: functions.php:1000
+msgid "Check to remove the search toggle from the row of icons."
+msgstr "Bocka för om du vill dölja sökknappen i raden med ikoner."
+
+#: functions.php:982
+msgid "Search"
+msgstr "Sök"
+
+#: functions.php:973
+msgid "Previous and next page links"
+msgstr "Föregående och nästa sidlänkar"
+
+#: functions.php:972
+msgid "Load more on scroll"
+msgstr "Ladda mer vid scroll"
+
+#: functions.php:971
+msgid "Load more on button click"
+msgstr "Ladda mer vid knapptryck"
+
+#: functions.php:969
+msgid "Pagination Type:"
+msgstr "Typ av paginering:"
+
+#: functions.php:955
+msgid "Choose which type of pagination to display."
+msgstr "Välj vilken typ av paginering som ska användas."
+
+#: functions.php:952
+msgid "Pagination"
+msgstr "Paginering"
+
+#: functions.php:943
+msgid "Select the post meta values to show in previews."
+msgstr "Välj vilken metadata som ska visas med förhandsvisningar."
+
+#: functions.php:942
+msgid "Post Meta In Previews:"
+msgstr "Inläggsmeta på förhandsvisningar:"
+
+#: functions.php:929
+msgid "Select the post meta values to show on single posts."
+msgstr "Välj vilken metadata som ska visas på sidor för enskilda inlägg."
+
+#: functions.php:928
+msgid "Post Meta On Single:"
+msgstr "Inläggsmeta för enskilda inlägg:"
+
+#: functions.php:916
+msgid "Tags"
+msgstr "Etiketter"
+
+#: functions.php:915
+msgid "Sticky status"
+msgstr "Klistrad status"
+
+#: functions.php:913
+msgid "Edit link (for logged in users)"
+msgstr "Redigeringslänk (för inloggade användare)"
+
+#: functions.php:911
+msgid "Categories"
+msgstr "Kategorier"
+
+#: functions.php:904
+msgid "Choose which meta information to display in Koji."
+msgstr "Välj vilken metadata som ska visas i Koji."
+
+#: functions.php:901
+msgid "Post Meta"
+msgstr "Inläggsmeta"
+
+#: functions.php:877
+msgid "The selected image will be used when a post is missing a featured image. A default fallback image included in the theme will be used if no image is set."
+msgstr "Den valda bilden kommer att visas när ett inlägg saknar utvald bild. En standardreservbild som ingår i temat kommer att användas om ingen annan bild valts."
+
+#: functions.php:876
+msgid "Fallback Image"
+msgstr "Reservbild"
+
+#: functions.php:841
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr "Skalar loggan till hälften av den uppladdade storleken, vilket gör den skarp på högupplösta skärmar."
+
+#: functions.php:840
+msgid "Retina logo"
+msgstr "Retina-logotyp"
+
+#: functions.php:644 functions.php:651
+msgid "Edit"
+msgstr "Redigera"
+
+#: functions.php:631
+msgid "Sticky post"
+msgstr "Klistrat inlägg"
+
+#: functions.php:619 functions.php:912
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: functions.php:609
+msgid "Tagged with"
+msgstr "Märkt med"
+
+#: functions.php:599
+msgid "Posted in"
+msgstr "Publicerat i"
+
+#: functions.php:586
+msgid "Posted by"
+msgstr "Publicerad av"
+
+#: functions.php:576 functions.php:914
+msgid "Post date"
+msgstr "Publiceringsdatum"
+
+#: functions.php:396
+msgid "Search Results"
+msgstr "Sökresultat"
+
+#: functions.php:391
+msgid "Day"
+msgstr "Dag"
+
+#: functions.php:389
+msgid "Month"
+msgstr "Månad"
+
+#: functions.php:387
+msgid "Year"
+msgstr "År"
+
+#: functions.php:385 functions.php:910
+msgid "Author"
+msgstr "Författare"
+
+#: functions.php:383
+msgid "Tag"
+msgstr "Etikett"
+
+#: functions.php:381
+msgid "Category"
+msgstr "Kategori"
+
+#: functions.php:363 functions.php:398
+msgid "Archives"
+msgstr "Arkiv"
+
+#: functions.php:354
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Chattar"
+
+#: functions.php:352
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Ljud"
+
+#: functions.php:350
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Statusar"
+
+#: functions.php:348
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Länkar"
+
+#: functions.php:346
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Citat"
+
+#: functions.php:344
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videoklipp"
+
+#: functions.php:342
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Bilder"
+
+#: functions.php:340
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Gallerier"
+
+#: functions.php:338
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Noteringar"
+
+#: functions.php:48
+msgid "Social Menu"
+msgstr "Social meny"
+
+#: functions.php:47
+msgid "Mobile Menu"
+msgstr "Mobilmeny"
+
+#: functions.php:46
+msgid "Primary Menu"
+msgstr "Primär meny"
+
+#. Author of the theme
+#. Translators: $s = name of the theme developer
+#: footer.php:30
+msgid "Anders Norén"
+msgstr "Anders Norén"
+
+#. Translators: $s = name of the theme developer
+#: footer.php:30
+msgctxt "Translators: $s = name of the theme developer"
+msgid "Theme by %s"
+msgstr "Tema av %s"
+
+#: comments.php:22
+msgid "Add Yours &rarr;"
+msgstr "Lägg till din &rarr;"
+
+#. Translators: %s = the number of comments
+#: comments.php:12
+msgctxt "Translators: %s = the number of comments"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s kommentar"
+msgstr[1] "%s kommentarer"
+
+#: 404.php:13
+msgid "To the home page"
+msgstr "Till startsidan"
+
+#: 404.php:11
+msgid "The page you're looking for could not be found. It may have been removed, renamed, or maybe it didn't exist in the first place. You can return to the home page through the link."
+msgstr "Sidan du sökte efter kunde inte hittas. Den kan ha raderats, bytt namn, eller kanske aldrig funnits. Du kan återvända till startsidan via länken."
+
+#: 404.php:9
+msgid "Error 404"
+msgstr "Fel 404"
+
+#. Author URI of the theme
+msgid "https://www.andersnoren.se"
+msgstr "https://www.andersnoren.se"
